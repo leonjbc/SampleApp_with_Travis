@@ -2,7 +2,7 @@ branches:
   only: master
 env:
   global:
-  - S3_BUCKET_NAME=leon-codedeploy-bucket
+  - S3_BUCKET_NAME=leon-bucket-codedepoly
   - CODEDEPLOY_APPLICATION=leon-codedeploy-app
   - CODEDEPLOY_GROUP=leon-codedeploy-group
   - REGION=ap-northeast-1
